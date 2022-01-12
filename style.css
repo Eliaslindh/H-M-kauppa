@@ -1,0 +1,211 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.logo{
+ 
+    width: 150px;
+    height: 150px;
+    background: url(images/hm.jpg);
+    background-size: cover;
+}
+.left-header, .right-header{
+    display: flex;
+    gap: 40px;
+
+}
+
+.meny {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.headline {
+     margin: 2rem 20rem;
+
+}
+
+
+
+input{
+    right: 100px;
+    width: 200px;
+    height: 20px;
+  
+    padding: 1rem;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+}
+
+
+
+
+
+.search221 {
+    left: 200px;
+}
+
+
+.right-header span {
+    padding-top: 1.5rem;
+}
+  
+
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+    
+}
+
+h1 {
+    font-size: 1.1rem;
+    font-weight: 100;
+   
+}
+
+h2{
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin-top: 1.5rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+
+.mainproducts{
+    display: flex;
+  
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 400px;
+}
+
+.products{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+  height: 590px;
+  width: 350px;
+}
+
+p {
+    font-weight: 300;
+    display: flex;
+}
+
+#sidebar {
+    font-size: 0.5rem;
+    display: flex;
+    margin: 2rem;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 800px;
+    width: 250px;
+    
+}
+
+.item-details {
+    height: 50px;
+    width: 300px;
+}
+
+.shirt {
+    height: 500px;
+  
+}
+
+
+.sidebar-pic {
+    display: flex;
+}
+
+.short {
+    color: red;
+}
+
+.shorts {
+    margin: -1rem 2rem;
+}
+
+@media (max-width: 985px) {
+ 
+    .right-header {
+        display: none;
+    }
+      
+.headline {
+    margin: 3rem 8rem;
+}
+
+.search221 {
+    display: none;
+}
+
+.products {
+    height: 400px;
+    width: 250px;
+}
+
+.item-details {
+ margin-right: -70px;
+}
+
+.shirt {
+    height: 350px;
+}
+.logo {
+    display: none;
+}
+
+.meny {
+    margin-top: 2rem;
+}
+
+    }
+
+
+    @media (max-width: 750px) {
+        #sidebar {
+            display: none;
+        }
+        .logo {
+            display: none;
+        }
+
+        .meny {
+            margin-top: 2rem;
+        }
+    }
